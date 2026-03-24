@@ -1,0 +1,19 @@
+# ninja log v5
+11	2669	7941696096138928	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	133477c6e282eae
+50	2665	7941696096138928	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f41c6b86fdc152da
+30	2674	7941696096552884	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d5985f84374ee084
+86	2978	7941696099695234	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	6f620db29867f137
+62	2693	7941696096756746	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	aa40801c817aa515
+39	2794	7941696097853513	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	4f9ca74892c7fb02
+74	3012	7941696100053337	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	d1ea1f011ca0691d
+21	3177	7941696101668144	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	860fc998ce9863e8
+3178	3640	7941696106348097	C:/Users/sammy/Downloads/CSCE446/Project_Satellite/Project_Satellite 2026-02-12_14-40-34/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4j4y2h3f/obj/arm64-v8a/libgame.so	229f91626f038735
+9	4512	7941859519242815	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	133477c6e282eae
+76	4546	7941859519423773	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f41c6b86fdc152da
+18	4549	7941859519619400	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d5985f84374ee084
+51	4572	7941859520018605	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	aa40801c817aa515
+29	4647	7941859520806782	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	4f9ca74892c7fb02
+64	4887	7941859523204033	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	d1ea1f011ca0691d
+91	4891	7941859523254232	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	6f620db29867f137
+39	5037	7941859524666683	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	860fc998ce9863e8
+5038	5427	7941859528487184	C:/Users/sammy/Downloads/CSCE446/Project_Satellite/Project_Satellite 2026-02-12_14-40-34/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4j4y2h3f/obj/arm64-v8a/libgame.so	229f91626f038735

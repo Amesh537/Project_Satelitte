@@ -1,0 +1,2 @@
+C:\Users\Amesh\Project_Satellite\Project_Satellite 2026-02-12_14-40-34 (1)\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Amesh\Project_Satellite\Project_Satellite 2026-02-12_14-40-34 (1)\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

@@ -1,0 +1,10 @@
+# ninja log v5
+97	3605	7960573735121817	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9c8ed1ef8126fc
+69	3632	7960573734743929	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	62c4a4eb8c63f74e
+137	3659	7960573735702625	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ad8386c728d68fcc
+17	3689	7960573736023519	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e88c3b6a2e25017f
+1	3864	7960573737849733	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ce78a6740f1c71fc
+50	4319	7960573742264983	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	c5570f9c4be1a6b9
+115	4425	7960573743422820	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b82172fc8715ba5
+32	4553	7960573744758625	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ceebb45b8e23c318
+4553	4809	7960573747425886	C:/Users/Amesh/Project_Satellite/Project_Satellite 2026-02-12_14-40-34 (1)/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5e5u4h4v/obj/arm64-v8a/libgame.so	c63290a5f5442d5b
