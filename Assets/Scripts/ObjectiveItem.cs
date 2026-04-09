@@ -12,6 +12,10 @@ public class ObjectiveItem : MonoBehaviour
     public string DisplayName => displayName;
     public bool IsComplete => isComplete;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip completionSound;
+
     private void Start()
     {
         if (registerOnStart && hudManager != null)
@@ -25,6 +29,11 @@ public class ObjectiveItem : MonoBehaviour
         if (isComplete) return;
 
         isComplete = true;
+
+        if (audioSource != null && completionSound != null)
+        {
+            audioSource.PlayOneShot(completionSound);
+        }
 
         if (hudManager != null)
             hudManager.NotifyObjectiveChanged();

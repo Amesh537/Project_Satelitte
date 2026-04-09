@@ -5,7 +5,6 @@ public class SliderLight : MonoBehaviour
     public Renderer rend;
     public Material redMat;
     public Material greenMat;
-    
 
     public float correctMin = 0.8f;
     public float correctMax = 1.0f;
@@ -14,7 +13,7 @@ public class SliderLight : MonoBehaviour
 
     void Start()
     {
-        SetCorrect(false); // ✅ force red at start
+        SetCorrect(false); // start red
     }
 
     public void CheckSlider(float value)
@@ -27,5 +26,11 @@ public class SliderLight : MonoBehaviour
     {
         isCorrect = correct;
         rend.material = isCorrect ? greenMat : redMat;
+    }
+
+    // ✅ ADD THIS FUNCTION
+    public bool IsCorrect()
+    {
+        return isCorrect;
     }
 }

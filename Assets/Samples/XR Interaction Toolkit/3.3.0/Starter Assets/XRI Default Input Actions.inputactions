@@ -2430,7 +2430,7 @@
                 {
                     "name": "",
                     "id": "a9fa4316-0a00-4f5d-9859-07d0549b4395",
-                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{RightHand}/thumbstick",
+                    "path": "<QuestTouchPlusController>{RightHand}/thumbstick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -2441,7 +2441,7 @@
                 {
                     "name": "",
                     "id": "1ece9610-6965-4ad9-b6d5-15f97a90fc53",
-                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{RightHand}/primarybutton",
+                    "path": "<XRInputV1::Oculus::MetaQuestTouchPlusControllerOpenXR>{RightHand}/primarybutton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -2452,7 +2452,7 @@
                 {
                     "name": "",
                     "id": "8e443828-373a-4518-abff-44a3c1bf424c",
-                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{LeftHand}/primarybutton",
+                    "path": "<XRInputV1::Oculus::MetaQuestTouchPlusControllerOpenXR>{LeftHand}/primarybutton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

@@ -8,12 +8,14 @@ public class VRBlinkLight : MonoBehaviour
 
     public Color redColor = Color.red;
     public Color greenColor = Color.green;
+
     public GameObject miniLight;
+
+    public SliderLight leverLight; // 👈 ADD THIS
 
     private Color currentColor;
     private Material mat;
-
-    
+    private bool isGreen = false;
 
     void Start()
     {
@@ -25,24 +27,30 @@ public class VRBlinkLight : MonoBehaviour
 
     void Update()
     {
+        // 👇 CHECK lever light instead of being told directly
+        if (!isGreen && leverLight != null && leverLight.IsCorrect())
+        {
+            SetGreen();
+        }
+
         float pulse = Mathf.Lerp(minEmission, maxEmission,
             (Mathf.Sin(Time.time * speed) + 1f) / 2f);
 
         mat.SetColor("_EmissionColor", currentColor * pulse);
     }
 
-    // ✅ CALL THIS when puzzle is complete
     public void SetGreen()
     {
         currentColor = greenColor;
-        
+        isGreen = true;
+
         if (miniLight != null)
             miniLight.SetActive(false);
     }
 
-    // (optional) reset
     public void SetRed()
     {
         currentColor = redColor;
+        isGreen = false;
     }
 }
